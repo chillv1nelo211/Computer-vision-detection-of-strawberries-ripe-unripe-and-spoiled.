@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Disease', 'Ripe', 'Unripe']
+
+roboflow:
+  workspace: leonardo-lrfc5
+  project: strawberry_detection-ripe-unripe-disease-pltrt
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/leonardo-lrfc5/strawberry_detection-ripe-unripe-disease-pltrt/dataset/1
